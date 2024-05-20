@@ -252,6 +252,32 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  // Our Team swiper
+  new Swiper('.team-swiper', {
+    speed: 600,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints:{
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 40
+      },
+
+      1200: {
+        slidesPerView: 4,
+        spaceBetween: 10
+      }
+    }
+  });
+
   /**
    * Porfolio isotope and filter
    */

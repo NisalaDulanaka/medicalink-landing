@@ -144,22 +144,23 @@
   }
   
   .team .member .social {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
   }
   
   .team .member .social a {
     color: #a2a2a2;
     transition: 0.3s;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 8px;
     border: 1px solid #bbbbbb;
   }
   
@@ -169,6 +170,11 @@
   }
   
   .team .member .social i {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0 2px;
+  }
+
+  /* Team Swiper */
+  .team-swiper .swiper-pagination{
+    position: relative;
   }
